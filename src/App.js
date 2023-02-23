@@ -9,12 +9,12 @@ function App() {
   }
 
   const clear = () => {
-    setResult("0");
-  }
+    setResult("");
+  };
 
   const handleDelete = () => {
     setResult(result.slice(0, -1));
-  }
+  };
 
   const calculate = () => {
     try {
